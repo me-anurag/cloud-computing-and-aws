@@ -1,288 +1,290 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:232F3E,50:FF9900,100:4FC3F7&height=200&section=header&text=Cloud%20Computing%20%26%20AWS&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=From%20Zero%20to%20Cloud%20Hero%20%E2%80%94%20Structured%20Learning%20Path&descAlignY=58&descSize=16&animation=fadeIn" alt="Cloud Computing & AWS Banner"/>
+<!-- Animated Banner -->
+<img src="aws_banner.svg" alt="Cloud Computing & AWS Mastery" width="100%" />
 
 <br/>
 
-<!-- Badges -->
-![Made With Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red?style=for-the-badge)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
-![Cloud](https://img.shields.io/badge/Cloud%20Computing-4FC3F7?style=for-the-badge&logo=icloud&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active%20Learning-66BB6A?style=for-the-badge)
+<!-- Animated badges -->
+<img src="https://img.shields.io/badge/Cloud-Computing-00D4FF?style=for-the-badge&logo=icloud&logoColor=white" />
+&nbsp;
+<img src="https://img.shields.io/badge/Amazon-AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+&nbsp;
+<img src="https://img.shields.io/badge/Level-Beginner%20→%20Advanced-7C3AED?style=for-the-badge" />
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Active-00FF94?style=for-the-badge" />
 
-<br/>
+<br/><br/>
 
-<!-- Animated typing SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=FF9900&center=true&vCenter=true&width=600&lines=☁️+Cloud+Fundamentals+%E2%86%92+AWS+Mastery;Compute+%7C+Storage+%7C+Networking+%7C+Security;Serverless+%7C+Containers+%7C+Architecture;Learn+Once%2C+Build+Everywhere+on+AWS" alt="Typing SVG" />
-</a>
+> *A structured, beginner-to-advanced learning repository covering cloud fundamentals through advanced AWS architecture — one concept at a time.*
 
 </div>
 
 ---
+
+<br/>
 
 ## 📁 Repository Structure
 
 ```
-📦 cloud-computing-aws/
-│
-├── 📂 Cloud Computing Lessons and Fundamentals/
-│   ├── 01 - What is Cloud Computing/
-│   ├── 02 - Cloud Service Models (IaaS, PaaS, SaaS)/
-│   ├── 03 - Cloud Deployment Models/
-│   ├── 04 - Virtualization & Hypervisors/
-│   ├── 05 - Networking Basics for Cloud/
-│   ├── 06 - Storage Concepts/
-│   ├── 07 - Scalability & High Availability/
-│   ├── 08 - Cloud Security Fundamentals/
-│   └── 09 - Cost Management & Optimization/
-│
-└── 📂 AWS Guide and Step by Step Lessons/
-    ├── 01 - AWS Account Setup & Free Tier/
-    ├── 02 - IAM — Identity & Access Management/
-    ├── 03 - EC2 — Elastic Compute Cloud/
-    ├── 04 - S3 — Simple Storage Service/
-    ├── 05 - VPC — Virtual Private Cloud/
-    ├── 06 - RDS & DynamoDB/
-    ├── 07 - Lambda & Serverless/
-    ├── 08 - ECS, EKS & Containers/
-    ├── 09 - CloudFormation & IaC/
-    └── 10 - Real-World Architecture Projects/
+📦 cloud-computing-aws-mastery
+ ┣ 📂 cloud computing lessons and fundamentals
+ ┗ 📂 AWS guide step by step
 ```
+
+<br/>
 
 ---
 
-## ☁️ Folder 1 — Cloud Computing Lessons and Fundamentals
+<br/>
 
-> **Start here if you're new to cloud.** This folder covers the core concepts behind cloud computing — the ideas that make AWS (and any cloud) work the way it does.
+## ☁️ Cloud Computing — Lessons & Fundamentals
 
-<div align="center">
+> **Folder:** `cloud computing lessons and fundamentals/`
+
+Everything you need to go from zero to confident in cloud computing concepts.
+
+<br/>
+
+### 🌐 Core Concepts
+
+| Concept | Description |
+|---|---|
+| **What is Cloud Computing?** | On-demand delivery of IT resources over the internet with pay-as-you-go pricing |
+| **Cloud vs Traditional IT** | CAPEX vs OPEX, on-premises limitations, why cloud wins |
+| **Virtualization** | How hypervisors abstract hardware — the engine behind cloud |
+| **Networking Basics** | IP addresses, DNS, subnets, firewalls, and how packets travel |
+
+<br/>
+
+### 🏗️ Service Models
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                  CLOUD COMPUTING PATH                       │
-│                                                             │
-│  Concepts → Models → Networking → Storage → Security       │
-│     │           │         │           │          │          │
-│  What is     IaaS/     TCP/IP      Block /    Zero Trust   │
-│  Cloud?    PaaS/SaaS  Basics       Object     Basics       │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│   SaaS  ──  Software as a Service   (Gmail, Slack)  │
+│   PaaS  ──  Platform as a Service   (Heroku, GAE)   │
+│   IaaS  ──  Infrastructure as a Service  (EC2, VMs) │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 ```
 
-</div>
+<br/>
 
-### 📚 What You'll Learn
+### ☁️ Deployment Models
 
-| # | Topic | Key Concepts |
-|---|-------|-------------|
-| 01 | **What is Cloud Computing** | On-premise vs cloud, NIST definition, benefits |
-| 02 | **Service Models** | IaaS, PaaS, SaaS — differences, examples, when to use |
-| 03 | **Deployment Models** | Public, Private, Hybrid, Multi-cloud |
-| 04 | **Virtualization** | VMs, hypervisors, containers vs VMs |
-| 05 | **Networking Basics** | IP, DNS, HTTP/S, Load balancers, CDN |
-| 06 | **Storage Concepts** | Block, Object, File storage — use cases |
-| 07 | **Scalability & HA** | Horizontal vs Vertical scaling, fault tolerance |
-| 08 | **Cloud Security** | Shared responsibility model, encryption, compliance |
-| 09 | **Cost Management** | CapEx vs OpEx, pricing models, cost optimization |
+- 🔵 **Public Cloud** — Resources owned and operated by a third-party provider (AWS, Azure, GCP)
+- 🟣 **Private Cloud** — Dedicated infrastructure for a single organisation
+- 🟡 **Hybrid Cloud** — Mix of public and private clouds connected together
+- 🟢 **Multi-Cloud** — Using more than one cloud provider simultaneously
 
-### 🎯 Learning Outcomes
+<br/>
 
-After completing this folder you will:
+### ⚡ Key Characteristics of Cloud
 
-- ✅ Understand what cloud computing is and why it exists
-- ✅ Confidently explain IaaS, PaaS, and SaaS with real examples
-- ✅ Know how cloud networking and storage work under the hood
-- ✅ Understand the shared security responsibility model
-- ✅ Be fully prepared to start AWS hands-on lessons
+```
+Elasticity          →  Scale up or down instantly
+On-demand           →  Pay only for what you use
+Broad access        →  Access from anywhere, any device
+Resource pooling    →  Shared infrastructure, multi-tenant
+Measured service    →  Metered usage and billing
+High availability   →  Built-in redundancy and failover
+```
+
+<br/>
+
+### 🔒 Cloud Security Fundamentals
+
+- **Shared Responsibility Model** — Cloud provider secures the infrastructure; you secure what's on it
+- **Identity & Access Management (IAM)** — Who can do what, and to which resources
+- **Encryption** — Data at rest and in transit
+- **Compliance** — GDPR, HIPAA, SOC 2, ISO 27001
+
+<br/>
+
+### 💰 Cloud Economics
+
+| Traditional IT | Cloud Computing |
+|---|---|
+| Large upfront costs (CAPEX) | Pay-as-you-go (OPEX) |
+| Over-provisioning for peak | Scale exactly to demand |
+| Long procurement cycles | Resources in minutes |
+| Fixed capacity | Unlimited scale |
+
+<br/>
 
 ---
 
-## ⚡ Folder 2 — AWS Guide and Step by Step Lessons
+<br/>
 
-> **Hands-on AWS from scratch.** Each lesson in this folder walks you through an AWS service with step-by-step instructions, diagrams, and real examples — starting with account setup all the way to production architecture.
+## 🟠 AWS — Step by Step Guide
 
-<div align="center">
+> **Folder:** `AWS guide step by step/`
+
+Hands-on, concept-by-concept walkthrough of Amazon Web Services.
+
+<br/>
+
+### 🚀 Getting Started with AWS
+
+| Step | Topic |
+|---|---|
+| 1️⃣ | Create your AWS Free Tier account |
+| 2️⃣ | Understand the AWS Global Infrastructure (Regions, AZs, Edge Locations) |
+| 3️⃣ | Navigate the AWS Management Console |
+| 4️⃣ | Set up billing alerts and budgets |
+| 5️⃣ | Configure IAM — never use the root account! |
+
+<br/>
+
+### 🌍 AWS Global Infrastructure
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                     AWS LEARNING PATH                            │
-│                                                                  │
-│  Account → IAM → Compute → Storage → Network → DB → Serverless  │
-│    ↓         ↓       ↓         ↓        ↓       ↓        ↓      │
-│  Free      Users    EC2       S3       VPC     RDS    Lambda     │
-│  Tier    Policies  Instances Buckets Subnets Tables Functions    │
-│                                                 ↓                │
-│                                        Containers & IaC         │
-└──────────────────────────────────────────────────────────────────┘
+Region  →  A geographical area (e.g. us-east-1, ap-south-1)
+  └── Availability Zone (AZ)  →  Isolated data centres within a Region
+        └── Edge Location     →  CDN endpoints for CloudFront caching
 ```
 
-</div>
+<br/>
 
-### 📚 What You'll Learn
+### 🖥️ Compute Services
 
-| # | Service / Topic | What You Build |
-|---|----------------|---------------|
-| 01 | **AWS Account & Free Tier** | Account setup, billing alerts, Free Tier walkthrough |
-| 02 | **IAM** | Users, Groups, Roles, Policies — least privilege setup |
-| 03 | **EC2** | Launch an instance, SSH in, security groups, AMIs |
-| 04 | **S3** | Create buckets, static website hosting, versioning, policies |
-| 05 | **VPC** | Custom VPC, subnets, route tables, NAT Gateway, bastion host |
-| 06 | **RDS & DynamoDB** | Relational vs NoSQL, launch RDS, create DynamoDB table |
-| 07 | **Lambda & Serverless** | Write functions, API Gateway integration, triggers |
-| 08 | **ECS / EKS** | Dockerize an app, deploy on ECS Fargate |
-| 09 | **CloudFormation** | Write your first template, deploy a full stack as code |
-| 10 | **Architecture Projects** | 3-tier web app, serverless API, multi-region setup |
+| Service | What it does |
+|---|---|
+| **EC2** | Virtual machines in the cloud — the core compute building block |
+| **Lambda** | Run code without managing servers (serverless) |
+| **ECS / EKS** | Run containers with Docker / Kubernetes |
+| **Elastic Beanstalk** | Deploy apps without worrying about infrastructure |
+| **Lightsail** | Simple VPS — great for beginners |
 
-### 🎯 Learning Outcomes
+<br/>
 
-After completing this folder you will:
+### 🗄️ Storage Services
 
-- ✅ Have an AWS account configured securely with IAM best practices
-- ✅ Know how to launch and manage core AWS services hands-on
-- ✅ Be able to design and deploy a production-grade 3-tier application
-- ✅ Understand Infrastructure as Code with CloudFormation
-- ✅ Be ready for the AWS Solutions Architect Associate exam
+```
+S3          →  Object storage — store any file, any size, infinitely scalable
+EBS         →  Block storage attached to EC2 instances (like a hard drive)
+EFS         →  Elastic file system — shared across multiple EC2 instances
+Glacier     →  Ultra-cheap archival storage for backups
+```
+
+<br/>
+
+### 🛢️ Database Services
+
+| Service | Type | Use case |
+|---|---|---|
+| **RDS** | Relational (SQL) | MySQL, PostgreSQL, MariaDB, Oracle |
+| **Aurora** | Relational (SQL) | AWS-native, 5× faster than MySQL |
+| **DynamoDB** | NoSQL (Key-Value) | Millisecond latency at any scale |
+| **ElastiCache** | In-Memory Cache | Redis / Memcached for fast reads |
+| **Redshift** | Data Warehouse | Analytics on petabytes of data |
+
+<br/>
+
+### 🌐 Networking on AWS
+
+```
+VPC           →  Your private network inside AWS
+  ├── Subnet  →  Divide VPC into public & private segments
+  ├── IGW     →  Internet Gateway — connects VPC to the internet
+  ├── NAT GW  →  Lets private subnets reach the internet (outbound only)
+  ├── SG      →  Security Groups — stateful firewall at instance level
+  └── NACL    →  Network ACLs — stateless firewall at subnet level
+
+Route 53      →  DNS service + domain registration
+CloudFront    →  Global CDN — cache content at edge locations
+ELB           →  Elastic Load Balancer — distribute traffic across instances
+```
+
+<br/>
+
+### 🔐 Security & Identity
+
+| Service | Purpose |
+|---|---|
+| **IAM** | Users, groups, roles, and policies — control all access |
+| **KMS** | Key Management Service — encrypt your data |
+| **Secrets Manager** | Store and rotate credentials securely |
+| **Shield** | DDoS protection (Standard is free) |
+| **WAF** | Web Application Firewall — block malicious web traffic |
+| **CloudTrail** | Audit log of every API call made in your account |
+
+<br/>
+
+### 📊 Monitoring & Management
+
+```
+CloudWatch    →  Metrics, logs, alarms, dashboards
+CloudTrail    →  API activity history across your account
+Config        →  Track configuration changes to AWS resources
+Trusted Advisor →  Recommendations for cost, security, and performance
+```
+
+<br/>
+
+### ⚙️ DevOps & Automation
+
+| Service | Role |
+|---|---|
+| **CodeCommit** | Git-based source control (like GitHub on AWS) |
+| **CodeBuild** | Build and test code |
+| **CodeDeploy** | Automate deployments to EC2 / Lambda |
+| **CodePipeline** | Full CI/CD pipeline orchestration |
+| **CloudFormation** | Infrastructure as Code — define AWS resources in YAML/JSON |
+| **CDK** | Define infrastructure using real programming languages |
+
+<br/>
+
+### 🏆 AWS Certification Roadmap
+
+```
+☁️  Cloud Practitioner    ──  Foundation (start here)
+        │
+        ├──  Solutions Architect Associate   ──  Most popular
+        ├──  Developer Associate
+        └──  SysOps Administrator Associate
+                │
+                └──  Professional & Specialty Certs
+```
+
+<br/>
 
 ---
 
-## 🗺️ Full Learning Roadmap
+<br/>
 
-```
-🟢 BEGINNER
-    │
-    ├── ☁️  What is Cloud? Service & Deployment Models
-    ├── 🌐  Networking & Virtualization Basics
-    └── 💾  Storage & Security Fundamentals
-         │
-🟡 INTERMEDIATE
-         │
-    ├── 🔐  AWS IAM — Users, Roles, Policies
-    ├── 🖥️   EC2 — Launch & Manage Compute
-    ├── 🪣  S3 — Object Storage & Static Sites
-    └── 🌍  VPC — Custom Networking in AWS
-              │
-🟠 ADVANCED
-              │
-    ├── 🗄️   RDS & DynamoDB — Managed Databases
-    ├── ⚡  Lambda & Serverless Architectures
-    ├── 📦  Containers — ECS & EKS
-    └── 🏗️   CloudFormation — Infrastructure as Code
-                   │
-🔴 EXPERT
-                   │
-    ├── 🏛️   Well-Architected Framework
-    ├── 🌐  Multi-Region & DR Strategies
-    ├── 💰  Cost Optimization Deep Dive
-    └── 🎯  Real-World Project Portfolio
-```
+## 🛠️ How to Use This Repo
 
----
-
-## 🚀 How to Use This Repository
-
-### Step 1 — Clone the repo
 ```bash
-git clone https://github.com/your-username/cloud-computing-aws.git
-cd cloud-computing-aws
+# Clone the repository
+git clone https://github.com/your-username/cloud-computing-aws-mastery.git
+
+# Navigate to cloud fundamentals
+cd "cloud computing lessons and fundamentals"
+
+# Navigate to AWS guide
+cd "AWS guide step by step"
 ```
 
-### Step 2 — Follow the order
-> Always start with **Cloud Computing Lessons and Fundamentals** before jumping into AWS. The concepts folder gives you the foundation that makes AWS make sense.
-
-```
-Cloud Fundamentals (Folder 1)  →  AWS Hands-On (Folder 2)
-        ↑                                  ↑
-  Read + notes                  Do + build + deploy
-```
-
-### Step 3 — Each lesson follows this structure
-```
-📄 lesson-name/
-├── README.md        ← Concept explanation + diagrams
-├── notes.md         ← Your personal notes (fill this in!)
-├── hands-on/        ← Step-by-step lab instructions
-└── resources.md     ← Links, docs, further reading
-```
-
-### Step 4 — Track your progress
-Check off topics as you complete them in [`PROGRESS.md`](./PROGRESS.md).
+<br/>
 
 ---
 
-## 🛠️ Prerequisites
-
-| Requirement | Details |
-|-------------|---------|
-| **Computer** | Any OS — Windows, macOS, Linux |
-| **AWS Account** | Free Tier account at [aws.amazon.com](https://aws.amazon.com) |
-| **Terminal** | Bash / PowerShell / Zsh |
-| **Text Editor** | VS Code recommended |
-| **Prior Knowledge** | Basic computer usage — no coding required to start |
-
----
-
-## 📊 Progress Tracker
-
-> Copy this into your `PROGRESS.md` and check off as you go!
-
-### ☁️ Cloud Fundamentals
-
-- [ ] 01 — What is Cloud Computing
-- [ ] 02 — Cloud Service Models (IaaS, PaaS, SaaS)
-- [ ] 03 — Cloud Deployment Models
-- [ ] 04 — Virtualization & Hypervisors
-- [ ] 05 — Networking Basics for Cloud
-- [ ] 06 — Storage Concepts
-- [ ] 07 — Scalability & High Availability
-- [ ] 08 — Cloud Security Fundamentals
-- [ ] 09 — Cost Management & Optimization
-
-### ⚡ AWS Step by Step
-
-- [ ] 01 — AWS Account Setup & Free Tier
-- [ ] 02 — IAM — Identity & Access Management
-- [ ] 03 — EC2 — Elastic Compute Cloud
-- [ ] 04 — S3 — Simple Storage Service
-- [ ] 05 — VPC — Virtual Private Cloud
-- [ ] 06 — RDS & DynamoDB
-- [ ] 07 — Lambda & Serverless
-- [ ] 08 — ECS, EKS & Containers
-- [ ] 09 — CloudFormation & IaC
-- [ ] 10 — Real-World Architecture Projects
-
----
-
-## 📖 Useful Resources
-
-| Resource | Link |
-|----------|------|
-| AWS Official Docs | [docs.aws.amazon.com](https://docs.aws.amazon.com) |
-| AWS Free Tier | [aws.amazon.com/free](https://aws.amazon.com/free) |
-| AWS Well-Architected | [aws.amazon.com/architecture/well-architected](https://aws.amazon.com/architecture/well-architected) |
-| AWS Skill Builder | [explore.skillbuilder.aws](https://explore.skillbuilder.aws) |
-| Cloud Pricing Calculator | [calculator.aws](https://calculator.aws) |
-
----
-
-## 🤝 Contributing
-
-Spotted a mistake or want to add a lesson?
-
-1. Fork the repo
-2. Create a branch — `git checkout -b lesson/your-topic`
-3. Add your content following the lesson structure above
-4. Open a Pull Request with a clear description
-
----
+<br/>
 
 <div align="center">
 
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4FC3F7,50:FF9900,100:232F3E&height=120&section=footer" alt="footer"/>
+### ⭐ Star this repo if it helps you on your cloud journey!
 
-**Happy Learning! ☁️ — Built with ❤️ and a lot of ☕**
+<br/>
 
-*If this repo helps you, give it a ⭐ — it means a lot!*
+![Made with](https://img.shields.io/badge/Made%20with-☁️%20%26%20🟠-0d1b2a?style=for-the-badge)
+&nbsp;
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-00D4FF?style=for-the-badge)
+
+<br/>
+
+*Built to make cloud computing approachable for everyone.*
 
 </div>

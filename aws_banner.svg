@@ -1,0 +1,120 @@
+<svg width="100%" viewBox="0 0 680 200" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Cloud Computing &amp; AWS Mastery</title>
+  <desc>Animated dark banner with fluffy moving clouds and AWS branding</desc>
+  <defs>
+    <style>
+      @keyframes driftL  { 0%,100%{transform:translateX(0)}  50%{transform:translateX(22px)} }
+      @keyframes driftR  { 0%,100%{transform:translateX(0)}  50%{transform:translateX(-20px)} }
+      @keyframes driftLS { 0%,100%{transform:translateX(0)}  50%{transform:translateX(14px)} }
+      @keyframes driftRS { 0%,100%{transform:translateX(0)}  50%{transform:translateX(-16px)} }
+      @keyframes driftT  { 0%,100%{transform:translateX(0)}  50%{transform:translateX(10px)} }
+      @keyframes badgePop{ 0%,100%{transform:scale(1)}       50%{transform:scale(1.05)} }
+      @keyframes orb     { 0%,100%{opacity:.10}              50%{opacity:.28} }
+      @keyframes spin    { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+      .cL  { animation: driftL  9s  ease-in-out infinite; }
+      .cR  { animation: driftR  11s ease-in-out infinite; }
+      .cLS { animation: driftLS 7s  ease-in-out infinite 1s; }
+      .cRS { animation: driftRS 8s  ease-in-out infinite 0.5s; }
+      .cT  { animation: driftT  13s ease-in-out infinite 2s; }
+      .bdg { animation: badgePop 3.5s ease-in-out infinite; transform-origin:340px 46px; }
+      .orb { animation: orb 5s ease-in-out infinite; }
+      .spn { animation: spin 25s linear infinite; transform-origin:340px 108px; }
+    </style>
+  </defs>
+
+  <rect width="680" height="200" fill="#080e1c" rx="12"/>
+
+  <g opacity="0.07">
+    <g id="dr"><circle cx="0" cy="0" r="1" fill="#ffffff"/><circle cx="40" cy="0" r="1" fill="#ffffff"/><circle cx="80" cy="0" r="1" fill="#ffffff"/><circle cx="120" cy="0" r="1" fill="#ffffff"/><circle cx="160" cy="0" r="1" fill="#ffffff"/><circle cx="200" cy="0" r="1" fill="#ffffff"/><circle cx="240" cy="0" r="1" fill="#ffffff"/><circle cx="280" cy="0" r="1" fill="#ffffff"/><circle cx="320" cy="0" r="1" fill="#ffffff"/><circle cx="360" cy="0" r="1" fill="#ffffff"/><circle cx="400" cy="0" r="1" fill="#ffffff"/><circle cx="440" cy="0" r="1" fill="#ffffff"/><circle cx="480" cy="0" r="1" fill="#ffffff"/><circle cx="520" cy="0" r="1" fill="#ffffff"/><circle cx="560" cy="0" r="1" fill="#ffffff"/><circle cx="600" cy="0" r="1" fill="#ffffff"/><circle cx="640" cy="0" r="1" fill="#ffffff"/><circle cx="680" cy="0" r="1" fill="#ffffff"/></g>
+    <use href="#dr" y="30"/><use href="#dr" y="60"/><use href="#dr" y="90"/><use href="#dr" y="120"/><use href="#dr" y="150"/><use href="#dr" y="180"/>
+  </g>
+
+  <ellipse cx="340" cy="108" rx="190" ry="72" fill="#0080ff" class="orb"/>
+
+  <g class="spn">
+    <ellipse cx="340" cy="108" rx="240" ry="82" fill="none" stroke="#00cfff" stroke-width="0.7" stroke-dasharray="8 14" opacity="0.2"/>
+  </g>
+  <ellipse cx="340" cy="108" rx="180" ry="60" fill="none" stroke="#ff9900" stroke-width="0.5" stroke-dasharray="4 16" opacity="0.18"/>
+
+  <g class="cL" transform="translate(72,46)">
+    <circle cx="0"   cy="18" r="18" fill="#1a2e44"/>
+    <circle cx="26"  cy="12" r="22" fill="#1e3350"/>
+    <circle cx="54"  cy="18" r="18" fill="#1a2e44"/>
+    <circle cx="78"  cy="22" r="14" fill="#172840"/>
+    <circle cx="-18" cy="22" r="13" fill="#172840"/>
+    <rect   x="-18" y="22" width="110" height="18" fill="#172840"/>
+    <circle cx="26"  cy="10" r="24" fill="#243d66" opacity="0.5"/>
+  </g>
+
+  <g class="cLS" transform="translate(200,20)">
+    <circle cx="0"  cy="14" r="13" fill="#1c1a30"/>
+    <circle cx="20" cy="9"  r="16" fill="#201e38"/>
+    <circle cx="42" cy="14" r="13" fill="#1c1a30"/>
+    <circle cx="58" cy="17" r="10" fill="#181528"/>
+    <circle cx="-14" cy="17" r="10" fill="#181528"/>
+    <rect   x="-14" y="17" width="86" height="13" fill="#181528"/>
+  </g>
+
+  <g class="cR" transform="translate(518,44)">
+    <circle cx="0"   cy="18" r="17" fill="#112a20"/>
+    <circle cx="26"  cy="11" r="21" fill="#143225"/>
+    <circle cx="52"  cy="17" r="17" fill="#112a20"/>
+    <circle cx="72"  cy="21" r="13" fill="#0e2219"/>
+    <circle cx="-16" cy="21" r="12" fill="#0e2219"/>
+    <rect   x="-16" y="21" width="102" height="18" fill="#0e2219"/>
+    <circle cx="26"  cy="10" r="22" fill="#1a3d2e" opacity="0.5"/>
+  </g>
+
+  <g class="cRS" transform="translate(470,18)">
+    <circle cx="0"  cy="12" r="11" fill="#251800"/>
+    <circle cx="18" cy="8"  r="14" fill="#2a1c00"/>
+    <circle cx="36" cy="12" r="11" fill="#251800"/>
+    <circle cx="48" cy="15" r="8"  fill="#1e1400"/>
+    <circle cx="-12" cy="15" r="8" fill="#1e1400"/>
+    <rect   x="-12" y="15" width="72" height="12" fill="#1e1400"/>
+  </g>
+
+  <g class="cT" transform="translate(22,66)">
+    <circle cx="0"  cy="10" r="9"  fill="#152030"/>
+    <circle cx="14" cy="6"  r="12" fill="#182535"/>
+    <circle cx="28" cy="10" r="9"  fill="#152030"/>
+    <circle cx="38" cy="13" r="7"  fill="#121c28"/>
+    <rect   x="-9" y="13" width="56" height="10" fill="#121c28"/>
+  </g>
+
+  <g class="cLS" transform="translate(626,62)">
+    <circle cx="0"  cy="9"  r="8"  fill="#152030"/>
+    <circle cx="12" cy="5"  r="11" fill="#182535"/>
+    <circle cx="26" cy="9"  r="8"  fill="#152030"/>
+    <rect   x="-8" y="11" width="42" height="9" fill="#121c28"/>
+  </g>
+
+  <g class="bdg">
+    <rect x="308" y="28" width="64" height="32" rx="7" fill="#FF9900"/>
+    <text x="340" y="50" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="14" fill="#0a0f1e">AWS</text>
+  </g>
+
+  <polygon points="381,34 385,44 395,44 387,51 390,61 381,55 372,61 375,51 367,44 377,44" fill="#FF9900"/>
+
+  <text x="340" y="104" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="28" fill="#ffffff">Cloud Computing &amp; <tspan fill="#FF9900">AWS</tspan> Mastery</text>
+  <text x="340" y="126" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#00CFFF" letter-spacing="1">BEGINNER &#x2192; ADVANCED &#xB7; ONE CONCEPT AT A TIME</text>
+
+  <line x1="200" y1="150" x2="480" y2="150" stroke="#1e2e44" stroke-width="1"/>
+
+  <circle cx="262" cy="163" r="3.5" fill="#00CFFF"/>
+  <circle cx="277" cy="163" r="3.5" fill="#BF5FFF"/>
+  <circle cx="292" cy="163" r="3.5" fill="#00FF94"/>
+  <circle cx="307" cy="163" r="3.5" fill="#FF9900"/>
+  <circle cx="322" cy="163" r="3.5" fill="#00CFFF"/>
+  <circle cx="340" cy="163" r="4.5" fill="#ffffff" opacity="0.95"/>
+  <circle cx="358" cy="163" r="3.5" fill="#00CFFF"/>
+  <circle cx="373" cy="163" r="3.5" fill="#FF9900"/>
+  <circle cx="388" cy="163" r="3.5" fill="#00FF94"/>
+  <circle cx="403" cy="163" r="3.5" fill="#BF5FFF"/>
+  <circle cx="418" cy="163" r="3.5" fill="#00CFFF"/>
+
+  <path d="M18,18 L18,6 L30,6"    fill="none" stroke="#00CFFF" stroke-width="1.5" opacity="0.55"/>
+  <path d="M662,18 L662,6 L650,6"  fill="none" stroke="#00CFFF" stroke-width="1.5" opacity="0.55"/>
+  <path d="M18,182 L18,194 L30,194"    fill="none" stroke="#00CFFF" stroke-width="1.5" opacity="0.55"/>
+  <path d="M662,182 L662,194 L650,194" fill="none" stroke="#00CFFF" stroke-width="1.5" opacity="0.55"/>
+</svg>
